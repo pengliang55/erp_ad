@@ -1,0 +1,100 @@
+/* pages/login/login.wxml.wxss */
+.container-login {
+  height: 100vh;
+  overflow:hidden;
+  position: relative;
+  background:linear-gradient(0deg,rgba(49,31,132,1),rgba(35,162,255,1));
+}
+.container-login-bg{
+  height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding:0;
+  position: relative;
+  z-index: 2;
+}
+.container-bottom-bg{
+  position: absolute;
+  z-index: 1;
+  bottom:0;
+  width:100%;
+}
+.container-bottom-bg image{
+  width:100%;
+}
+.tab-title {
+  padding:0 20rpx;
+  height: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.login-logo{
+  width:100%;
+  height:104px;
+  text-align:center;
+  margin:20px 0;
+
+
+}
+.login-logo image{
+  height:104px;
+  width:95px;
+}
+.swiper{
+   width: 100%;
+  flex: 1;
+}
+.swiperitem{
+  height:100%;
+}
+.label-item {
+  margin-bottom: 10rpx;
+  display: flex;
+  margin: 0 33px;
+  border-bottom: 1px solid rgba(255,255,255,.3);
+  align-items:center;
+  justify-content:center;
+  padding:10px 0;
+
+ 
+}
+.titleSel{
+  padding:0 34px;
+  height:39px;
+  line-height:39px;
+  border-radius: 20px;
+  color:#fff;
+
+}
+.titleSel.on{
+  background:rgba(0,0,0,.28);
+}
+.label-name{
+  width:12px;
+margin-right:10px;
+
+}
+.label-name image{
+  width:12px;
+  height:13px;
+}
+.label-item input{
+  flex:1;
+  height:30px;
+}
+.label-button{
+  padding:0 33px;
+  margin-top:30px;
+
+}
+.m-button-sumbit{
+  background:rgba(0,0,0,.28);
+color:#fff;
+font-size:15px;
+height:44px;
+line-height:44px;
+border-radius: 20px;
+}
