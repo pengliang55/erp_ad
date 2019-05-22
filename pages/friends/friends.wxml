@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="listContent">
+     <view wx:for="{{imgUrls}}" wx:key="*this" class="list">
+        <image src="{{item}}" class="friendImg"/>
+     </view>
+  </view>
+</view>

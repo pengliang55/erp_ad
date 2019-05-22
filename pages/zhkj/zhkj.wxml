@@ -1,0 +1,64 @@
+<!--index.wxml-->
+<view class="p-container">
+  <view class='p-bg'>
+   <image src="/images/bp_g.png"></image>
+  </view>
+  <view class="p-list">
+    <text>产品介绍</text>
+    <view class="p-list-box">
+      <view class="p-item">
+        <image src='/images/p_12.png'></image>
+        <label>精准招商</label>
+      </view>
+      <view class="p-item">
+        <image src='/images/p_1.png'></image>
+        <label>服务聚合平台</label>
+      </view>
+      <view class="p-item">
+        <image src='/images/p_2.png'></image>
+        <label>资产管理</label>
+      </view>
+      <view class="p-item">
+        <image src='/images/p_3.png'></image>
+        <label>物业管理</label>
+      </view>
+      <view class="p-item">
+        <image src='/images/p_4.png'></image>
+        <label>智慧物联</label>
+      </view>
+       <view class="p-item">
+        <image src='/images/p_5.png'></image>
+        <label>智慧大脑</label>
+      </view>
+    </view>
+  </view>
+  <view class="p-list">
+   <text>解决方案</text>
+    <view class="p-list-box">
+      <view class="p-item">
+        <image src='/images/p_6.png'></image>
+        <label>智慧园区</label>
+      </view>
+      <view class="p-item">
+        <image src='/images/p_7.png'></image>
+        <label>智慧景区</label>
+      </view>
+      <view class="p-item">
+        <image src='/images/p_8.png'></image>
+        <label>医疗产业园</label>
+      </view>
+      <view class="p-item">
+        <image src='/images/p_9.png'></image>
+        <label>智慧社区</label>
+      </view>
+      <view class="p-item">
+        <image src='/images/p_10.png'></image>
+        <label>写字楼</label>
+      </view>
+       <view class="p-item">
+        <image src='/images/p_11.png' class="w42h20"></image>
+        <label>中小企业公共服务</label>
+      </view>
+    </view>
+  </view>
+</view>

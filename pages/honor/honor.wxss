@@ -1,0 +1,28 @@
+/**index.wxss**/
+.container{
+	width:100%;
+	height:100%;
+	background:#F5F6F9;
+}
+.sBanner{
+	width:100%;
+	height:288rpx;
+}
+.sBanner image{
+	width:100%;
+	height:100%;
+}
+.honerImg{
+	margin:60rpx 16rpx 0 16rpx;
+	width: calc(100% - 32rpx);
+}
+.hI1{
+	height:288rpx;
+}
+.hI2{
+	height:449rpx;
+}
+.honerImg image{
+	width: 100%;
+	height:100%;
+}

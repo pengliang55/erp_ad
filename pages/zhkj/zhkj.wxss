@@ -1,0 +1,57 @@
+/**index.wxss**/
+text,label{font-family:'Microsoft Yahei', 微软雅黑, 宋体, Helvetica, Tahoma, Arial;}
+.p-container{
+  background: #f5f6f9;
+}
+.p-bg{
+  width: 100%;
+  height: 288rpx;
+}
+.p-bg image{
+  height: 100%;
+  width: 100%;
+}
+.p-list{
+  padding: 0 12px;
+  overflow: hidden;
+  text-align: center;
+}
+.p-list text{
+  font-size: 31rpx;
+  color: #333;
+  height:50px;
+  width: 100%;
+  line-height: 50px;
+  font-weight: bold;
+}
+.p-list-box{
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+.p-list-box .p-item{
+  float: left;
+  width:calc(33% - 12rpx);
+  margin-right: 19rpx;
+  background: #fff;
+  height: 170rpx;
+  text-align: center;
+  margin-bottom: 21rpx;
+}
+.p-list-box .p-item:nth-child(3n+0){
+  margin-right: 0;
+}
+.p-list-box .p-item image{
+  height: 52rpx;
+  width:52rpx;
+  display: block;
+  margin:37rpx auto 16rpx;
+}
+.p-list-box .p-item image.w42h20{
+  height: 41rpx;
+  width:85rpx;
+}
+.p-list-box .p-item label{
+  font-size: 23rpx;
+  color:#333;
+}

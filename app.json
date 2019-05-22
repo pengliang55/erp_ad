@@ -3,11 +3,16 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/login/login"
+    "pages/honor/honor",
+    "pages/friends/friends",
+    "pages/p_sy/p_sy",
+    "pages/company_info/company_info",
+    "pages/zhkj/zhkj"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "¾ÞÖÞÔÆ",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"

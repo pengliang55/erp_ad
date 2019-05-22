@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="sBanner">
+      <image src="/images/honorbn.png"/>
+  </view>
+  <view class="honerImg hI1">
+      <image src="/images/honor1.png"/>
+  </view>
+  <view class="honerImg hI1">
+      <image src="/images/honor2.png"/>
+  </view>
+  <view class="honerImg hI1">
+      <image src="/images/honor3.png"/>
+  </view>
+  <view class="honerImg hI1">
+      <image src="/images/honor4.png"/>
+  </view>
+  <view class="honerImg hI1">
+      <image src="/images/honor5.png"/>
+  </view>
+  <view class="honerImg hI2">
+      <image src="/images/honor6.png"/>
+  </view>
+  <view class="honerImg hI2">
+      <image src="/images/honor7.png"/>
+  </view>
+  <view class="honerImg hI2">
+      <image src="/images/honor8.png"/>
+  </view>
+</view>

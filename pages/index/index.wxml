@@ -1,15 +1,39 @@
 <!--index.wxml-->
 <view class="container">
-  
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+  <swiper class="lunbo" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-color="{{beforeColor}}" 
+         indicator-active-color="{{afterColor}}">
+      <block wx:for="{{imgUrls}}" wx:key="*this">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image"/>
+        </swiper-item>
+      </block>
+  </swiper>
+  <view class="indexItem1">
+      <test class='item' bindtap='aboutTap'>
+          <image src="/images/about1.png"/>
+          <test class='name'>公司介绍</test>
+      </test>
+      <test class='item' bindtap='kehuTap'>
+          <image src="/images/about1.png"/>
+          <test class='name'>客户案例</test>
+      </test>
+      <test class='item' bindtap='honorTap'>
+          <image src="/images/about1.png"/>
+          <test class='name'>荣誉资质</test>
+      </test>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-    <text bindtap="bindLocationLogin" class="user-motto">试试登录一下吧</text>
-  </view> 
+  <view class="indexItem2">
+      <test class='title'>
+        <image src="/images/about_icon.png" class="aboutIcon"/>
+        智慧空间
+      </test>
+      <test class='content'  bindtap='zhkjTap'><image src="/images/proImg2.png" class="bigImg"/></test>
+  </view>
+  <view class="indexItem2">
+      <test class='title'>
+        <image src="/images/about_icon.png" class="aboutIcon"/>
+        地产ERP
+      </test>
+      <test class='content' bindtap='erpTap'><image src="/images/proImg1.png" class="bigImg"/></test>
+  </view>
 </view>

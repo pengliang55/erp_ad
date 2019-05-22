@@ -1,0 +1,56 @@
+<!--p_sy.wxml-->
+<view class="p-container">
+  <view class='p-bg'>
+   <image src="/images/bp_g.png"></image>
+  </view>
+  <view class="p-list">
+    <text>产品介绍</text>
+    <view class="p-list-box">
+      <view class="p-item">
+        <image src='/images/p_sy11.png' class="w50h50"></image>
+        <label>土地投资决策系统</label>
+      </view>
+      <view class="p-item">
+        <image src='/images/p_sy1.png' class="w50h52"></image>
+        <label>计划管理系统</label>
+      </view>
+      <view class="p-item">
+        <image src='/images/p_sy2.png'></image>
+        <label>招采管理系统</label>
+      </view>
+      <view class="p-item">
+        <image src='/images/p_sy3.png' class="w60h43"></image>
+        <label>成本管理系统</label>
+      </view>
+      <view class="p-item">
+        <image src='/images/p_sy4.png' class="w46"></image>
+        <label>费用管理系统</label>
+      </view>
+       <view class="p-item">
+        <image src='/images/p_sy5.png'></image>
+        <label>质量管理系统</label>
+      </view>
+       <view class="p-item">
+        <image src='/images/p_sy6.png' class="w44h50"></image>
+        <label>销售管理系统</label>
+      </view>
+       <view class="p-item">
+        <image src='/images/p_sy7.png'></image>
+        <label>资产管理系统</label>
+      </view>
+       <view class="p-item">
+        <image src='/images/p_sy8.png'></image>
+        <label>物业管理系统</label>
+      </view>
+       <view class="p-item">
+        <image src='/images/p_sy9.png'></image>
+        <label>商业智能分析系统</label>
+      </view>
+       <view class="p-item">
+        <image src='/images/p_sy10.png' class="more w64h12"></image>
+        <label>期待更多</label>
+      </view>
+      
+    </view>
+  </view>
+</view>

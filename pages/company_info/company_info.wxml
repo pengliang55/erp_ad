@@ -1,0 +1,42 @@
+<!--p_sy.wxml-->
+<view class="c-container">
+  <view class='c_bg_h_box'>
+    <image src='/images/c_bg_h.png' class="c_bg_h"></image>
+    <view class="bg01">
+      <image src='/images/c_7.png' class="c_tit"></image>
+      <image src='/images/c_3.png' class="c_tit_text"></image>
+    </view>
+  </view>
+   <view class="bg02">
+    <image src='/images/c_2.png'></image>
+  </view>
+   <view class="bg03 text-box">
+    <rich-text style="margin:60rpx 0">北京巨洲云科技有限公司成立于2014年，是一家面向B端的互联网科技企业。基于多年的行业沉淀和实践经验，公司以地产企业信息化为切入点，在打造地产ERP的基础上，衍生并迭代了全新的云ERP应用，为地产企业提供覆盖经营决策、核心业务管理的全产业链信息化解决方案:同时，在现有业务的基础上，不断创新开拓，积极为存量市场提供领先的综合智慧服务，持续构建“聚合、赋能、生态”的企业集群一体化综合服务平台，重塑地产行业价值链，助力企业数字化转型和持续健康发展。</rich-text>
+  </view>
+  <view class="bg04">
+    <image src='/images/c_5.png'></image>
+  </view>
+   <view class="bg05 text-box" style="margin:58rpx 0">
+    <text>我们秉持“1+1+1”(1个平台，1个应用，1个服务)的发展理念，通过不断打磨“T2B2C”的平台服务模式，引领地产新时代生态发展。</text>
+  </view>
+   <view class="bg06 text-box">
+   <image src='/images/c_10.png'></image>
+    <text>为客户提供最优质的产品和服务，让客户不再为企业信息化建设而困扰</text>
+  </view>
+  <view class="bg07 text-box">
+   <image src='/images/c_8.png'></image>
+    <text>成为最受企业用户尊重的信息化服务提供者</text>
+  </view>
+  <view class="bg08 text-box">
+   <image src='/images/c_9.png'></image>
+    <text>未来，我们希望与更多的企业合作，共享信息技术成果，将智慧经营理念融入企业管理，帮助更多的企业成功转型升级，互惠互利，合作共赢。</text>
+  </view>
+  <view class="erweima text-box">
+   <image src='/images/c_4.png' style='width:286rpx;height:286rpx;'></image>
+    <text>TEL:400-000-3200</text>
+  </view>
+  <view class="try-box">
+   <image src='/images/c_6.png'></image>
+  
+  </view>
+</view>

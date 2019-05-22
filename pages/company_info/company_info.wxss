@@ -1,0 +1,80 @@
+/**index.wxss**/
+text,rich-text{font-family:'Microsoft Yahei', 微软雅黑, 宋体, Helvetica, Tahoma, Arial;font-size: 26rpx;color: #fefefe;line-height: 60rpx;margin-top: 58rpx;}
+image{
+  height: 100%;
+  width: 100%;
+}
+.c-container{
+  width: 100%;
+  height: auto;
+  background: linear-gradient(180deg,#2922aa 0,#234ce3 80%,#2576f1 100%);
+
+}
+.c_bg_h_box{
+  position: relative;
+}
+image.c_bg_h{
+  width: 100%;
+  height: 380rpx;
+}
+.bg04{
+  height: 483rpx;
+}
+.bg06 image,.bg07 image,.bg08 image{
+  width: 206rpx;
+  height: 53rpx;
+  display: block;
+   margin-bottom: 27rpx;
+}
+.bg06,.bg07,.bg08{
+  margin-top: 58rpx;
+}
+.bg06 text,.bg07 text,.bg08 text{
+  line-height: 48rpx;
+ 
+}
+.bg01 image.c_tit{
+ height: 197rpx;
+ width: 662rpx;
+ position: absolute;
+ right: 0;
+ top:50rpx;
+}
+.bg01 image.c_tit_text{
+ height: 33rpx;
+ width: 622rpx;
+ position: absolute;
+ left: 50%;
+ margin-left: -311rpx;
+ bottom:80rpx;
+
+}
+.bg02{
+  width: 100%;
+  height: 540rpx;
+}
+
+.text-box{
+  padding: 0 30rpx;
+}
+.erweima{
+  text-align: center;
+  margin-top: 62rpx;
+  margin-bottom: 26rpx;
+} 
+.erweima image{
+  display: block;
+  margin:0 auto;
+}
+.try-box{
+  text-align: center;
+  height: 101rpx;
+  overflow: hidden;
+}
+.try-box image{
+  height: 101rpx;
+  position: absolute;
+  border-bottom: 0;
+  left: 0;
+  right: 0;
+}
