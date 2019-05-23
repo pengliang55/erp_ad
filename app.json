@@ -2,7 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/login/login"
+    "pages/login/login",
     "pages/honor/honor",
     "pages/friends/friends",
     "pages/p_sy/p_sy",
@@ -12,7 +12,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "¾ÞÖÞÔÆ",
+    "navigationBarTitleText": "å·¨æ´²äº‘",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"

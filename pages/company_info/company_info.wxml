@@ -35,7 +35,7 @@
    <image src='/images/c_4.png' style='width:286rpx;height:286rpx;'></image>
     <text>TEL:400-000-3200</text>
   </view>
-  <view class="try-box">
+  <view class="try-box" bindtap='loginPage'>
    <image src='/images/c_6.png'></image>
   
   </view>
